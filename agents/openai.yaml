@@ -1,0 +1,6 @@
+interface:
+  display_name: "剧本与分镜输出"
+  short_description: "主动调用后生成连续剧本与资产直引分镜，同段写清声画和镜头信息"
+  default_prompt: "使用 $juben，根据我提供的剧情、人物和资产资料输出剧本与分镜。"
+policy:
+  allow_implicit_invocation: false
